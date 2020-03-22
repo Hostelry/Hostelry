@@ -34,6 +34,9 @@ Following are the general features that we currently support.
     - [ ] Electricity
     - [ ] Water
     - [ ] Telephone and Internet Subscriptions
+ - [ ] Guest Management
+    - [ ] Records Personal Information
+    - [ ] Collects guest feedback
 #### Business Intelligence Reporting
  - [ ] Room Monitoring
  - [ ] Sales Monitoring
