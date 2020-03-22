@@ -75,6 +75,26 @@ Following are the general features that we currently support.
  - [ ] Vehicle Monitoring
  - [ ] Lost and Found Item Monitoring
 
+
+# Website
+ - [ ] Home Page
+    - [ ] Overview
+    - [ ] Pricing Plan
+    - [ ] Features
+    - [ ] Request for Demo / Contact Us
+- [ ] Compare Plans
+- [ ] Frequently Asked Questions
+- [ ] Blog Posts
+- [ ] Legal
+    - [ ] Privacy Policy
+    - [ ] Site Policy
+    - [ ] Terms and Conditions
+- [ ] Registration / Sign Up
+    - [ ] Starter Plan
+    - [ ] Expansion Plan
+    - [ ] Deluxe Plan
+- [ ] Sign In
+
 -----
 # License
     Copyright (C) 2020  Coding Matters Software Development Services
