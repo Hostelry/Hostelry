@@ -4,6 +4,8 @@ Built for managing Inns, Pension Houses, and Hotels.
 # Features:
 Following are the general features that we currently support.
 
+---
+
 ## User Account Dashboard
 #### Business Account Management
  - [ ] Proprietor Information Management
@@ -75,6 +77,7 @@ Following are the general features that we currently support.
  - [ ] Vehicle Monitoring
  - [ ] Lost and Found Item Monitoring
 
+----
 
 # Website
  - [ ] Home Page
