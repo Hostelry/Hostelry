@@ -1,6 +1,7 @@
 # Hostelry: Hospitality Management Made Easy
 Built for managing Inns, Pension Houses, and Hotels.
 
+# Features:
 Following are the general features that we currently support.
 
 ## User Account Dashboard
