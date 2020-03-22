@@ -1,0 +1,90 @@
+{
+    "name": "hostelry/hostelry",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Gab Amba",
+            "email": "gab.amba@codingmatters.today"
+        }
+    ],
+    "support": {
+        "email": "support@codingmatters.today"
+    },
+    "type": "project",
+    "require": {
+        "php": "^7.3",
+        "fideloper/proxy": "^4.3.0",
+        "fruitcake/laravel-cors": "^v1.0.5",
+        "guzzlehttp/guzzle": "^6.5.2",
+        "laravel/framework": "^v7.2.2",
+        "nwidart/laravel-modules": "^v6.2.0",
+        "roave/security-advisories": "dev-master"
+    },
+    "require-dev": {
+        "facade/ignition": "^2.0.2",
+        "fzaninotto/faker": "^1.9.1",
+        "laminas/laminas-coding-standard": "^1.0.0",
+        "laravel/dusk": "^v5.10.0",
+        "malukenho/mcbumpface": "^1.1.2",
+        "mockery/mockery": "^1.3.1",
+        "nunomaduro/collision": "^v4.1.3",
+        "phpunit/phpunit": "^9.0.1",
+        "sebastian/phpcpd": "^5.0.2"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Hostelry\\": "modules"
+        },
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi"
+        ],
+        "check": [
+            "@clear-all",
+            "@cs-check",
+            "@check-cpd",
+            "@test"
+        ],
+        "clear-all": [
+            "php artisan view:clear",
+            "php artisan config:clear",
+            "php artisan cache:clear"
+        ],
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf",
+        "check-cpd": "phpcpd --exclude=vendor,public,bootstrap,config --fuzzy app tests database",
+        "unit-test": "php artisan test",
+        "bdd-test": "php artisan dusk --testdox",
+        "test": ["@unit-test", "@bdd-test"]
+    }
+}
