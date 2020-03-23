@@ -67,6 +67,11 @@ Following are the general features that we currently support.
  - [ ] Check-out
     - [ ] Normal Check-out
     - [ ] Check-out with penalties
+ - [ ] Transfers
+    - [ ] Due to room issues/defects
+    - [ ] Upgraded booking
+ - [ ] Time Extensions
+ - [ ] Upgrade booking
  - [ ] Online Reservation
 #### Sales Monitoring
  - [ ] Cash Remittances Report
