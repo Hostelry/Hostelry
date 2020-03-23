@@ -12,6 +12,7 @@ Following are the general features that we currently support.
     - [ ] Generate API Access Token
     - [ ] Can Change Security Access Password
     - [ ] Can add/remove Business Administrator (aka Officer In-charge)
+    - [ ] Can manage Business Permits
  - [ ] Room Management
     - [ ] Can create new room setup
     - [ ] Manually updates room status
@@ -56,6 +57,9 @@ Following are the general features that we currently support.
     - [ ] Regular Booking
     - [ ] Senior Citizen Discount Booking
     - [ ] Discounted Check-in
+ - [ ] Check-out
+    - [ ] Normal Check-out
+    - [ ] Check-out with penalties
  - [ ] Online Reservation
 #### Sales Monitoring
  - [ ] Cash Remittances Report
