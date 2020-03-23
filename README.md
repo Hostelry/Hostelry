@@ -7,6 +7,13 @@ Following are the general features that we currently support.
 ---
 
 ## User Account Dashboard
+#### Dashboard Account
+- [ ] Sign In/Out
+- [ ] Dashboard Page
+- [ ] Room Listing Page
+- [ ] Room Detail Page
+- [ ] Inventory Listing Page
+- [ ] Item Detail Page
 #### Business Account Management
  - [ ] Proprietor Information Management
     - [ ] Generate API Access Token
@@ -103,7 +110,6 @@ Following are the general features that we currently support.
     - [ ] Starter Plan
     - [ ] Expansion Plan
     - [ ] Deluxe Plan
-- [ ] Sign In
 
 -----
 # License
