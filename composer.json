@@ -85,6 +85,8 @@
         "check-cpd": "phpcpd --exclude=vendor,public,bootstrap,config --fuzzy app tests database",
         "unit-test": "php artisan test",
         "bdd-test": "php artisan dusk --testdox",
-        "test": ["@unit-test", "@bdd-test"]
+        "test": ["@unit-test", "@bdd-test"],
+        "dump-seed": "php artisan migrate:fresh --seed",
+        "dump-seed-all": ["@dump-seed", "php artisan db:seed --class=TestDatabaseSeeder"]
     }
 }

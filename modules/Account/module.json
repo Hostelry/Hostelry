@@ -1,0 +1,13 @@
+{
+    "name": "Account",
+    "alias": "account",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Hostelry\\Account\\Providers\\AccountServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
