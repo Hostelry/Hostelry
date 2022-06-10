@@ -15,7 +15,7 @@
         "php": "^7.3",
         "fideloper/proxy": "^4.3.0",
         "fruitcake/laravel-cors": "^v1.0.5",
-        "guzzlehttp/guzzle": "^6.5.2",
+        "guzzlehttp/guzzle": "^7.4.4",
         "laravel/framework": "^v7.4.0",
         "nwidart/laravel-modules": "^v6.2.0",
         "roave/security-advisories": "dev-master"
